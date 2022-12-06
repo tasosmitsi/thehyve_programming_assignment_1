@@ -1,0 +1,11 @@
+Hereby a short explanation about the assignment.
+
+The The Hyve Programming Assignment is an assignment with a simple algorithmic and I/O component. You will have 3 hours of time to make it, and an extension of 1 hour can be granted on request.
+
+You may use whatever programming language and environment you want, provided that the program uses the object oriented paradigm, in particular polymorphism. 
+
+It is not a problem if you do not have a fully functional and tested solution before the deadline, if so please hand in what you have. Please keep the deadline in mind while working on the problem, and start with the most important programming parts first. If you are afraid that you do not have enough time to implement some parts of the requirements, you may create a partial solution. In that case please focus on the algorithmic component first, and try to get at least a partial algorithm working.
+
+The assignment will consist of the creation of a very simple command line program that reads data from its standard input stream and writes data to its standard output and standard error streams. The i/o will be binary, so please make sure that you know how to do binary input and output in the programming environment you intend to use, and how to access the standard input, output and error streams. Also make sure that you can input binary data of your choice into your program and inspect the produced result, so that you can test your program. The assignment will require you to manipulate bytes as numbers. You may also choose to look up how to convert bytes to text and text to bytes to help you debug, but that will not be part of the assignment.
+
+As a very simple test, in the attached zip file you will find two binary files which contain 10 bytes of data. The contents of input.bin is in hexadecimal notation 03 fa 55 12 20 66 67 50 e8 ab, the contents of output.bin is 04 fb 56 13 21 67 68 51 e9 ac in hexadecimal notation. The output file is simply the input file with the value of each byte incremented by one. You should have no problem creating a simple program that reads data on standard input, increments each byte by one, and writes out the result on standard output. When your program is passed the contents of input.bin, it should output the same bytes as in output.bin.
