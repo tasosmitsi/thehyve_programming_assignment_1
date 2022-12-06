@@ -1,6 +1,6 @@
 import sys
 
-USE_TRIVIAL_IMPLEMENTATION = 1
+USE_TRIVIAL_IMPLEMENTATION = 0
 
 class bcolors:
     HEADER = '\033[95m'
